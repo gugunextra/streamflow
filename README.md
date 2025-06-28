@@ -105,7 +105,10 @@ Buka port aplikasi (default: 7575):
 ```bash
 sudo ufw allow 7575
 ```
-
+Jika sudo ufw allow 7575 sudo: ufw: command not found
+```
+sudo apt-get install ufw
+```
 Aktifkan firewall:
 ```bash
 sudo ufw enable
