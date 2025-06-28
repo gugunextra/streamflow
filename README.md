@@ -113,6 +113,12 @@ Aktifkan firewall:
 ```bash
 sudo ufw enable
 ```
+Jika Problem running '/etc/ufw/before6.rules' buka editor nano
+```
+nano /etc/ufw/before6.rules
+```
+Lalu hapus tanda pagar # di akhir script nya, lalu ctrl x, y dan enter lalu ulangi lagi Aktifkan firewall nya
+
 
 Verifikasi status firewall:
 ```bash
