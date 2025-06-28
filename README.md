@@ -53,7 +53,10 @@ Verifikasi instalasi Node.js:
 node --version
 npm --version
 ```
-
+Jika Terdapat Eror npm install bash: npm: command not found
+```
+sudo apt install npm -y
+```
 Install FFmpeg:
 ```bash
 sudo apt install ffmpeg -y
