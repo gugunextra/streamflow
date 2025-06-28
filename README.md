@@ -146,6 +146,11 @@ http://IP_SERVER:PORT
 
 Contoh: `http://88.12.34.56:7575`
 
+Untuk cek ip adress nya bisa cek dengan cara 
+```
+ip addr
+```
+
 **Penting:** Setelah membuat akun admin pertama kali, lakukan **Sign Out** kemudian restart aplikasi:
 ```bash
 pm2 restart streamflow
